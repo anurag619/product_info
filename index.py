@@ -3,7 +3,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-app = Flask(__name__, static_folder='static', template_folder= 'templates')
+app = Flask(__name__, template_folder= 'templates')
 app.secret_key= 'some-secret-key'
 
 
