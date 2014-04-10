@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Product Details</title>
+        <style>
+          body {
+            padding: 3em;
+          }
+          h1 i {
+            display: block;
+            font-size: 0.85rem;
+            color: silver;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>
+          Product Detail in
+          <i>
+              {{url}}
+          </i>
+        </h1>
+        <dl>
+          <dt>Name</dt>
+          <dd>{{name}}</dd>
+          <dt>Photo</dt>
+          <dd><img src="{{img}}" alt=" "></dd>
+          <dt>Price</dt>
+          <dd>{{price}}</dd>
+        </dl>
+    </body>
+</html>
