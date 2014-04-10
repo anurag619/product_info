@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 app = Flask(__name__, static_folder='static', template_folder= 'templates')
-app.secret_key= '\xbf\xb50\x94au\x8f\xf9\se2\x1f\x93\x06(\xdf\xe4\xaf\x1f\x86k\xb3\x2fQ%1'
+app.secret_key= 'some-secret-key'
 
 
 
