@@ -11,14 +11,14 @@ Usage
 * In your terminal type 
 
 
-	pip install -r requirements.txt
+		pip install -r requirements.txt
 
 this might take some time.
 
 * Fire up python(flask) server:
 
 
-	python index.py
+		python index.py
 
 
 * from your favourite browser visit: http://127.0.0.1:5000/ , you can test by typing "http://www.flipkart.com/moto-g/p/itmdsmbxcrm9wy8r".
